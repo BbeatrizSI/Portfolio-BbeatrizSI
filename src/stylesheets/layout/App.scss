@@ -1,0 +1,44 @@
+@import '../core/_reset.scss';
+
+/* Base */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  // font-family: $font-main;
+  // font-size: $normal-font;
+  // font-weight: $font-medium;
+  // color: $primary-color;
+  // line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+}

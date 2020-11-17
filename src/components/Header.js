@@ -4,15 +4,14 @@ import '../stylesheets/layout/Header.scss';
 
 const Header = () => {
     return (
-        <div>
-            <nav className="nav-container">
-                <ul className="nav">
-                    <li>Proyectos</li>
-                    <li>Un poco sobre mí</li>
-                    <li>Alguna sugerencia?</li>
-                </ul>
-            </nav>
-        </div>
+        <nav className="nav_container">
+            <ul className="nav">
+                <li><a href="#projects" title="Vamos a ver qué he hecho hasta ahora">Proyectos</a></li>
+                <li><a href="#aboutme" title="Quieres conocerme?">Sobre mí</a></li>
+                <li><a href="#contact" title="Déjame un comentario">Sugerencias?</a></li>
+            </ul>
+        </nav>
+        
     );
 };
 

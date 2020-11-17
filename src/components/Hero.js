@@ -5,8 +5,9 @@ import '../stylesheets/layout/Hero.scss';
 const Hero = () => {
     return (
         <div className="hero">
-            <h1 className="hero-title">Hola!  Soy <span className="hero-title_name">Bárbara B. Sacristán</span></h1>
-            <p className="hero-description">Desarrolladora Front-End Jr.</p>
+            <h1 className="hero_title">Hola!  Soy <span className="hero_title-name">Bárbara B. Sacristán</span></h1>
+            <h2 className="hero_description">Desarrolladora Front-End Jr.</h2>
+            <p>Sigue bajando o ataja por los links para saber un poco más de mí!</p>
         </div>
     );
 };

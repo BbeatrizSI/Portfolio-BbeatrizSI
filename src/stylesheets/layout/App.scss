@@ -1,4 +1,6 @@
 @import '../core/_reset.scss';
+@import '../core/Variables.scss';
+@import '../core/Mixins.scss';
 
 /* Base */
 *,
@@ -12,9 +14,8 @@ html {
 
 body {
   // font-family: $font-main;
-  // font-size: $normal-font;
-  // font-weight: $font-medium;
-  // color: $primary-color;
+  font-size: 16px;
+  color: $color-white;
   // line-height: 1.6;
   scroll-behavior: smooth;
 }
@@ -40,5 +41,4 @@ img {
 }
 .App {
   text-align: center;
-  height: 100vh;
 }

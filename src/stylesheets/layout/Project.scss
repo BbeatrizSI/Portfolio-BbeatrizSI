@@ -1,0 +1,24 @@
+@import '../core/_reset.scss';
+@import '../core/Variables.scss';
+@import '../core/Mixins.scss';
+@import './App.scss';
+
+.project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &_img-Container {
+    width: 90%;
+
+    .project_img {
+      border-radius: 10px;
+    }
+  }
+
+  &_info {
+    color: $color-black;
+  }
+}

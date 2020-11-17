@@ -1,7 +1,9 @@
-import '../stylesheets/layout/App.scss';
 import Header from './Header';
 import Hero from './Hero';
 import Footer from './Footer';
+import Projects from './Projects';
+import dataProjects from '../data/dataProjects';
+import '../stylesheets/layout/App.scss';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Footer />
+      <Projects data={ dataProjects } />
     </div>
   );
 }

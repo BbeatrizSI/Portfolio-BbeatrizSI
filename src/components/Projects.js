@@ -8,8 +8,9 @@ const Projects = ({data}) => {
         <section className="projects" id="projects">
             <h2 className="projects_title">Algo de lo que he estado haciendo</h2>
             {data.map(
-          ({ title, description, githubLink, webLink, img, skills }) => (
+          ({ id, title, description, githubLink, webLink, img, skills }) => (
             <Project
+              key={id}
               title={title}
               description={description}
               githubLink={githubLink}

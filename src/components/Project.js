@@ -4,9 +4,9 @@ import '../stylesheets/layout/Project.scss';
 
 
 
-const Project = ({ img, title, description, githubLink, webLink, skills }) => {
+const Project = ({ id, img, title, description, githubLink, webLink, skills }) => {
   return (
-    <article className="project">
+    <article className="project" data-id={id}>
       <div className="project_img-Container">
         <img src={img} className="project_img" alt={title}></img>
       </div>

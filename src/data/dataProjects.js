@@ -10,6 +10,7 @@ import tareas from '../assets/images/tareas.jpg';
 
 const dataProjects = [
     {
+        id: 1,
         title: 'Rick and Morty',
         description:
             'Buscador de personajes de la serie Rick y Morty. Dispone de filtros y puedes ver en detalle cada personaje.',
@@ -19,6 +20,7 @@ const dataProjects = [
         skills: ['HTML', 'SASS', 'React'],
     },
     {
+        id: 2,
         title: 'Blackjack',
         description:
             'Sencillo juego de Blackjack hecho en JS Vanilla. Ya sabéis, a por 21!',
@@ -28,6 +30,7 @@ const dataProjects = [
         skills: ['HTML', 'Bootstrap', 'JS Vanilla'],
     },
     {
+        id: 3,
         title: 'Maniac Coders Card Generator',
          description:
             'Generador de tarjetas de visita personalizables, con uso de local storage. Una vez terminada se comparte en Twitter fácilmente.',
@@ -37,6 +40,7 @@ const dataProjects = [
         skills: ['HTML', 'CSS', 'SASS', 'JavaScript'],
     },
     {
+        id: 4,
         title: 'Drum-Kit',
         description:
             'Sencillo juego de batería hecho con JavaScript Vanilla',
@@ -47,6 +51,7 @@ const dataProjects = [
          skills: ['HTML', 'CSS', 'JavaScript'],
     },
     {
+        id: 5,
         title: 'Pokemon List',
         description:
             'Listado de Pokemons hecho con React, seleccionables y con un bonito (aunque sencillo) diseño',
@@ -57,6 +62,7 @@ const dataProjects = [
         skills: ['HTML', 'SASS', 'React'],
     },
     {
+        id: 6,
         title: 'Buscador de Series',
         description:
             'Buscador de series por nombre a través de una API. Contiene un listado de favoritos y la información se almacena en el local storage.',
@@ -67,6 +73,7 @@ const dataProjects = [
         skills: ['HTML', 'SASS', 'JavaScript'],
     },
     {
+        id: 7,
         title: 'ToDo App',
         description:
             'Aplicación web para gestionar tareas pendientes. Tiene filtro para saber las que te quedan por realizar',

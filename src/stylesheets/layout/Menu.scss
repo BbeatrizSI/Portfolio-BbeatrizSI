@@ -1,0 +1,24 @@
+@import '../core/_reset.scss';
+@import '../core/Variables.scss';
+@import '../core/Mixins.scss';
+
+.menu_aside {
+  // position: fixed;
+  // bottom: 0;
+  height: 220px;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #6acfa7b0;
+  border-radius: 0px 0px 10px 0px;
+
+  .fas {
+    font-size: 2rem;
+    color: $color-primary;
+    text-shadow: 0px 1px 3px $color-shadow;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+}

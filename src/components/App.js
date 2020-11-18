@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header menuVisibility={menuVisibility}/>
+      <Header menuVisibility={menuVisibility} setMenuVisibility= {setMenuVisibility}/>
       <Hero />
       <Projects data={ dataProjects } />
       <Footer />

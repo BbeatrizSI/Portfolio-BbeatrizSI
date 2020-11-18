@@ -9,6 +9,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
+  margin: 20px 0px;
 
   &_img-Container {
     width: 90%;

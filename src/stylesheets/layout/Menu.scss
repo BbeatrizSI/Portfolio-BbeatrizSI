@@ -13,6 +13,8 @@
   align-items: center;
   background-color: #6acfa7b0;
   border-radius: 0px 0px 10px 0px;
+  animation-name: menuDropDown;
+  animation-duration: 0.3s;
 
   .fas {
     font-size: 2rem;
@@ -20,5 +22,14 @@
     text-shadow: 0px 1px 3px $color-shadow;
     margin: 20px 0px;
     cursor: pointer;
+  }
+}
+
+@keyframes menuDropDown {
+  from {
+    transform: translateY(-220px);
+  }
+  to {
+    transform: translateY(0px);
   }
 }

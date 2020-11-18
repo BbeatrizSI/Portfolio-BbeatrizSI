@@ -4,14 +4,18 @@ import Footer from './Footer';
 import Projects from './Projects';
 import dataProjects from '../data/dataProjects';
 import '../stylesheets/layout/App.scss';
+import { useState } from 'react';
 
 function App() {
+
+  const [menuVisibility, setMenuVisibility] = useState(false);
+
   return (
     <div className="App">
-      <Header />
+      <Header menuVisibility={menuVisibility}/>
       <Hero />
-      <Footer />
       <Projects data={ dataProjects } />
+      <Footer />
     </div>
   );
 }

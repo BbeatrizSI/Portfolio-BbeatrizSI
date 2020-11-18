@@ -1,7 +1,6 @@
 @import '../core/_reset.scss';
 @import '../core/Variables.scss';
 @import '../core/Mixins.scss';
-@import './App.scss';
 
 .nav_container {
   position: fixed;
@@ -16,18 +15,17 @@
     justify-content: space-between;
     align-items: center;
     background-color: #6acfa7b0;
-    padding: 0 15px;
+    padding: 0 20px;
 
-    & li {
+    li {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100%;
 
-      & a {
-        width: 100%;
-        font-size: 1rem;
-        text-transform: uppercase;
+      .fas {
+        display: inline-block;
+        font-size: 2rem;
         text-shadow: 0px 1px 3px $color-shadow;
       }
     }

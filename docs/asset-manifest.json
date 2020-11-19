@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.5e3fd278.chunk.css",
-    "main.js": "./static/js/main.794de39c.chunk.js",
-    "main.js.map": "./static/js/main.794de39c.chunk.js.map",
+    "main.css": "./static/css/main.95143712.chunk.css",
+    "main.js": "./static/js/main.36c3e53f.chunk.js",
+    "main.js.map": "./static/js/main.36c3e53f.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.918337ef.js",
     "runtime-main.js.map": "./static/js/runtime-main.918337ef.js.map",
     "static/js/2.3a08a938.chunk.js": "./static/js/2.3a08a938.chunk.js",
     "static/js/2.3a08a938.chunk.js.map": "./static/js/2.3a08a938.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.5e3fd278.chunk.css.map": "./static/css/main.5e3fd278.chunk.css.map",
+    "static/css/main.95143712.chunk.css.map": "./static/css/main.95143712.chunk.css.map",
     "static/js/2.3a08a938.chunk.js.LICENSE.txt": "./static/js/2.3a08a938.chunk.js.LICENSE.txt",
     "static/media/Hero.scss": "./static/media/aurora-green-l.91fdd0ed.svg",
     "static/media/black.4f459a96.jpg": "./static/media/black.4f459a96.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.918337ef.js",
     "static/js/2.3a08a938.chunk.js",
-    "static/css/main.5e3fd278.chunk.css",
-    "static/js/main.794de39c.chunk.js"
+    "static/css/main.95143712.chunk.css",
+    "static/js/main.36c3e53f.chunk.js"
   ]
 }

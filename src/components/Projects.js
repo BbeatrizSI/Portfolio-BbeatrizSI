@@ -22,6 +22,7 @@ const Projects = ({data}) => {
                 />
                )
             )}
+            <div className="blank_space"></div>
           </div>
           <p className="github_description">Para ver más te invito a pasarte por mi perfil de GitHub <a href="https://github.com/BbeatrizSI" title="Vamos a ver esos repositorios!"><i class="fab fa-github github_icon"></i></a></p>
         </section>

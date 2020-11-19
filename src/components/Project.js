@@ -14,8 +14,8 @@ const Project = ({ id, img, title, description, githubLink, webLink, skills }) =
         <h2 className="project_title">{title}</h2>
         <p className="project_description">{description}</p>
         <div className="project_icons">
-          <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href={webLink} target="_blank" rel="noopener noreferrer">Web</a>
+          <a href={githubLink} target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i></a>
+          <a href={webLink} target="_blank" rel="noopener noreferrer"><i class="fas fa-desktop"></i></a>
         </div>
       </div>
     </article>

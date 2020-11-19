@@ -5,13 +5,13 @@
 
 .projects {
   width: 100%;
-  margin: 50px 0px;
+  margin: 40px 0px;
 
   .transparent_div {
     width: 10px;
     height: 10px;
     margin-left: calc(50% - 5px);
-    transform: translateY(-110px);
+    transform: translateY(-100px);
   }
 
   &_title {
@@ -21,17 +21,30 @@
 
   &_container {
     display: flex;
+    // justify-content: center;
     overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+
+    .blank_space {
+      width: 20px;
+      border: 1px solid rgb(255, 255, 255);
+    }
   }
 
   .github_description {
     font-size: 1.5rem;
     color: $color-primary;
-    margin: 5px 10px;
+    margin: 10px 10px;
 
-    .github_icon {
-      font-size: 3rem;
-      margin-top: 5px;
+    a {
+      padding: 10px;
+      line-height: 4rem;
+
+      .github_icon {
+        font-size: 3rem;
+        margin-top: 10px;
+      }
     }
   }
 }

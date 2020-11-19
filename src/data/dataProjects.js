@@ -65,7 +65,7 @@ const dataProjects = [
         id: 6,
         title: 'Buscador de Series',
         description:
-            'Buscador de series por nombre a través de API. Contiene un listado de favoritos y la info se almacena en el local storage.',
+            'Buscador por nombre a través de API. Contiene un listado de favoritos y la info se almacena en el local storage.',
         githubLink:
             'https://github.com/BbeatrizSI/modulo-2-evaluacion-final-BbeatrizSI',
         webLink: 'https://bbeatrizsi.github.io/modulo-2-evaluacion-final-BbeatrizSI/',

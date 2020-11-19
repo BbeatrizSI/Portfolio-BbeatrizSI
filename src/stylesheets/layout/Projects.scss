@@ -5,7 +5,7 @@
 
 .projects {
   width: 100%;
-  margin: 40px 0px;
+  padding: 40px 0px;
 
   .transparent_div {
     width: 10px;
@@ -16,7 +16,8 @@
 
   &_title {
     color: $color-primary;
-    margin-bottom: 30px;
+    font-size: 2rem;
+    margin: 0px 15px 30px 15px;
   }
 
   &_container {

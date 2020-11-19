@@ -5,6 +5,7 @@ import Projects from './Projects';
 import dataProjects from '../data/dataProjects';
 import '../stylesheets/layout/App.scss';
 import { useState } from 'react';
+import AboutMe from './AboutMe';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Header menuVisibility={menuVisibility} setMenuVisibility= {setMenuVisibility}/>
       <Hero />
       <Projects data={ dataProjects } />
+      <AboutMe />
       <Footer />
     </div>
   );

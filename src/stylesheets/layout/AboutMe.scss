@@ -1,3 +1,53 @@
 @import '../core/_reset.scss';
 @import '../core/Variables.scss';
 @import '../core/Mixins.scss';
+
+.aboutme {
+  color: $color-primary;
+  background-color: $color-secondary-light;
+  width: 100%;
+  padding: 40px 0px;
+
+  .transparent_div-am {
+    width: 10px;
+    height: 10px;
+    margin-left: calc(50% - 5px);
+    transform: translateY(-100px);
+  }
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+
+    .aboutme_img-container {
+      width: 180px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0px 1px 2px $color-shadow;
+      margin: 30px 0px 50px;
+
+      .aboutme_img {
+        max-width: 150%;
+        width: 230px;
+        object-position: calc(50% - 25px) calc(50% - 35px);
+      }
+    }
+
+    .aboutme_title {
+      font-size: 2rem;
+      margin: 0px 15px 30px 15px;
+    }
+
+    .aboutme_info {
+      font-size: 1.25rem;
+      text-align: justify;
+      text-indent: 50px;
+
+      p {
+        margin: 10px;
+      }
+    }
+  }
+}

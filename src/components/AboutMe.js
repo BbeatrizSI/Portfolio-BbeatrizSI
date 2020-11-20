@@ -8,15 +8,18 @@ const AboutMe = () => {
         <section className="aboutme">
              <div className="transparent_div-am" id="aboutme"></div>
              <div className="aboutme_container">
-                 <div className="aboutme_img-container">
+                <h2 className="aboutme_title">Y ahora un poco sobre mí...</h2>
+                <div className="aboutme_img-container">
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github-alt"></i>
                     <img
                         className="aboutme_img"
                         src={imageOfMe}
                         alt="Foto de Bárbara"
                         title="Foto de Bárbara"
                     />
-                 </div>
-                <h2 className="aboutme_title">Y ahora un poco sobre mí...</h2>
+                </div>
                 <div className="aboutme_info">
                     <p>Cuento con <span className="bold">más de 10 años de experiencia</span> en gestión de información, control de calidad y atención al cliente en ambientes de trabajo multiculturales.</p>
                     <p>Hace relativamente poco decidí darle un giro a mi carrera profesional y convertirme en <span className="bold">desarrolladora front-end!</span></p>

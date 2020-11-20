@@ -28,6 +28,22 @@
       box-shadow: 0px 1px 2px $color-shadow;
       margin: 30px 0px 50px;
 
+      .fab {
+        position: absolute;
+      }
+
+      .fa-linkedin-in {
+        transform: translate(-130px, -40px);
+      }
+
+      .fa-twitter {
+        transform: translate(80px, -40px);
+      }
+
+      .fa-github-alt {
+        transform: translate(-140px, 130px);
+      }
+
       .aboutme_img {
         max-width: 150%;
         width: 230px;

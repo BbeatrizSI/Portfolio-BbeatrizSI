@@ -25,23 +25,37 @@
       height: 200px;
       overflow: hidden;
       border-radius: 20px;
-      box-shadow: 0px 1px 2px $color-shadow;
+      box-shadow: 0px 1px 2px 1px $color-shadow;
       margin: 30px 0px 50px;
 
-      .fab {
+      .ico_container {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid $color-secondary;
+        border-radius: 50%;
+        padding: 25px;
+        box-shadow: 0px 1px 3px 1px $color-primary;
+
+        .fab {
+          font-size: 1.75rem;
+        }
+      }
+      .ico1 {
         position: absolute;
+        transform: translate(-60px, -40px);
       }
 
-      .fa-linkedin-in {
-        transform: translate(-130px, -40px);
+      .ico2 {
+        position: absolute;
+        transform: translate(200px, -20px);
       }
 
-      .fa-twitter {
-        transform: translate(80px, -40px);
-      }
-
-      .fa-github-alt {
-        transform: translate(-140px, 130px);
+      .ico3 {
+        position: absolute;
+        transform: translate(-80px, 110px);
       }
 
       .aboutme_img {
@@ -57,12 +71,17 @@
     }
 
     .aboutme_info {
+      font-family: $font-main;
       font-size: 1.25rem;
       text-align: justify;
       text-indent: 50px;
 
       p {
         margin: 10px;
+
+        .bold {
+          font-weight: 700;
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 @import '../core/_reset.scss';
-@import '../core/Variables.scss';
-@import '../core/Mixins.scss';
+@import '../core/_variables.scss';
+@import '../core/_mixins.scss';
 
 /* Base */
 *,
@@ -13,10 +13,8 @@ html {
 }
 
 body {
-  // font-family: $font-main;
   font-size: 16px;
   color: $color-white;
-  // line-height: 1.6;
   scroll-behavior: smooth;
 }
 
@@ -41,4 +39,5 @@ img {
 }
 .App {
   text-align: center;
+  font-family: $font-main;
 }

@@ -53,6 +53,7 @@
     animation-name: swing;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease;
   }
 
   @keyframes swing {

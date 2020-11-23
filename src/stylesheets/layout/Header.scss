@@ -2,36 +2,51 @@
 @import '../core/Variables.scss';
 @import '../core/Mixins.scss';
 
-.nav_container {
+.header {
   position: fixed;
   top: 0;
   height: 60px;
-  width: 100vw;
-  z-index: 5;
+  width: 100%;
+  z-index: 50;
 
-  .nav {
+  .nav_container {
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #6acfa7e5;
-    padding: 0 22px;
 
-    li {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .nav {
       height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #6acfa7e5;
+      padding: 0 22px;
 
-      .fas {
-        display: inline-block;
-        font-size: 2rem;
-        text-shadow: 0px 1px 3px $color-shadow;
+      .menu_icon {
+        padding: 14px;
       }
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
 
-      .fa-bars {
-        width: 32px;
+        a {
+          padding: 14px;
+
+          .fas {
+            display: inline-block;
+            width: 32px;
+            font-size: 2rem;
+            text-shadow: 0px 1px 3px $color-shadow;
+          }
+        }
+        .fas {
+          width: 32px;
+          height: 32px;
+          font-size: 2rem;
+          text-shadow: 0px 1px 3px $color-shadow;
+        }
       }
     }
   }

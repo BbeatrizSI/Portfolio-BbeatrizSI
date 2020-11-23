@@ -8,8 +8,29 @@ const AboutMe = () => {
         <section className="aboutme">
              <div className="transparent_div-am" id="aboutme"></div>
              <div className="aboutme_container">
-                <h2 className="aboutme_title">Y ahora un poco sobre mí...</h2>
-                <div className="aboutme_img-container">
+                <h2 className="aboutme_title">Y ahora un poco sobre mí...</h2>             
+                <div className="aboutme_img_animation-container">
+                    <div className="aboutme_img-container">
+                        <img
+                            className="aboutme_img"
+                            src={imageOfMe}
+                            alt="Foto de Bárbara"
+                            title="Foto de Bárbara"
+                        />
+                    </div>
+                    <span className="aboutme_animation">
+                        <div className="large circle one"></div>
+                        <div className="large circle two"></div>
+                        <div className="large circle three"></div>
+                        <div className="large circle four"></div>
+                        <div className="large circle five"></div>
+                        <div className="large circle six"></div>
+                        <div className="large circle seven"></div>
+                        <div className="large circle eight"></div>
+                    </span>
+                </div>
+                
+                <div className="aboutme_sm">
                     <a className="ico_container ico1" href="https://www.linkedin.com/in/barbarabsacristan/" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
@@ -19,12 +40,6 @@ const AboutMe = () => {
                     <a className="ico_container ico3" href="https://github.com/BbeatrizSI" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de GitHub">
                     <i class="fab fa-github-alt"></i>
                     </a>
-                    <img
-                        className="aboutme_img"
-                        src={imageOfMe}
-                        alt="Foto de Bárbara"
-                        title="Foto de Bárbara"
-                    />
                 </div>
                 <div className="aboutme_info">
                     <p>Cuento con <span className="bold">más de 10 años de experiencia</span> en gestión de información, control de calidad y atención al cliente en ambientes de trabajo multiculturales.</p>

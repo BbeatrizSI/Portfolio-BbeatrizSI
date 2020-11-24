@@ -13,6 +13,10 @@
     height: 10px;
     margin-left: calc(50% - 5px);
     transform: translateY(-100px);
+
+    @include tablet {
+      transform: translateY(-120px);
+    }
   }
   &_container {
     width: 100%;
@@ -148,6 +152,10 @@
     text-align: justify;
     text-indent: 50px;
     padding: 0px 15px;
+
+    @include tablet {
+      font-size: 1.5rem;
+    }
 
     p {
       margin: 10px;

@@ -7,12 +7,16 @@
   width: 100%;
   padding: 40px 0px;
 
-  // .transparent_div {
-  //   width: 10px;
-  //   height: 10px;
-  //   margin-left: calc(50% - 5px);
-  //   transform: translateY(-100px);
-  // }
+  .transparent_div {
+    width: 10px;
+    height: 10px;
+    margin-left: calc(50% - 5px);
+    transform: translateY(-100px);
+
+    @include tablet {
+      transform: translateY(-120px);
+    }
+  }
 
   &_title {
     color: $color-primary;

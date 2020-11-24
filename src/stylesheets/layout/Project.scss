@@ -17,6 +17,10 @@
   border-radius: 15px;
   box-shadow: 0px 1px 1px $color-shadow;
 
+  @include tablet {
+    margin: 20px;
+  }
+
   &_img-Container {
     width: 100%;
 

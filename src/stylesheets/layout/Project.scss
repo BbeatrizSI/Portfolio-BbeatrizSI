@@ -4,13 +4,14 @@
 @import './App.scss';
 
 .project {
-  width: 90%;
+  width: 320px;
+  min-width: 335px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  margin: 20px calc(50% - 169px);
+  margin: 20px calc(50% - 162px);
   scroll-snap-align: center;
   border: 1px solid $color-secondary;
   border-radius: 15px;

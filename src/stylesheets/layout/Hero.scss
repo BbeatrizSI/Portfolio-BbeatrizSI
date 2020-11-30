@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   padding: 25px;
-
+  border-radius: 0 0 85% 85% / 10%;
   &_title {
     font-size: 1.75rem;
     color: $color-secondary-light;

@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   height: 60px;
-  width: 100%;
+  width: 100vw;
   z-index: 50;
 
   @include tablet {

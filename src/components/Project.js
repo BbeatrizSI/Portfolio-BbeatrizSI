@@ -6,7 +6,7 @@ import '../stylesheets/layout/Project.scss';
 
 const Project = ({ id, img, title, description, githubLink, webLink, skills }) => {
   return (
-    <article className="project" data-id={id}>
+    <article className="project animate__animated animate__fadeIn" data-id={id}>
       <div className="project_img-Container">
         <img src={img} className="project_img" alt={title}></img>
       </div>

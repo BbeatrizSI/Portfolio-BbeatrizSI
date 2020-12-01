@@ -32,13 +32,13 @@ const AboutMe = () => {
                 
                 <div className="aboutme_sm">
                     <a className="ico_container ico1" href="https://www.linkedin.com/in/barbarabsacristan/" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in"></i>
                     </a>
                     <a className="ico_container ico2" href="https://twitter.com/bbeatrizsi" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de Twitter">
-                        <i class="fab fa-twitter"></i>
+                        <i className="fab fa-twitter"></i>
                     </a>
                     <a className="ico_container ico3" href="https://github.com/BbeatrizSI" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de GitHub">
-                    <i class="fab fa-github-alt"></i>
+                    <i className="fab fa-github-alt"></i>
                     </a>
                 </div>
                 <div className="aboutme_info">

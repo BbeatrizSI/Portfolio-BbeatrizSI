@@ -1,3 +1,4 @@
+import heroes from '../assets/images/heroes.jpg';
 import black from '../assets/images/black.jpg';
 import rick from '../assets/images/rick.jpg';
 import cards from '../assets/images/cards.jpg';
@@ -11,6 +12,16 @@ import tareas from '../assets/images/tareas.jpg';
 const dataProjects = [
     {
         id: 1,
+        title: 'Heroes App',
+        description:
+            'Directorio de héroes con buscador. Falso "login" para diferenciar rutas públicas y privadas',
+        githubLink: 'https://github.com/BbeatrizSI/Heroes-App',
+        webLink: 'https://bbeatrizsi.github.io/Heroes-App/',
+        img: heroes,
+        skills: ['HTML', 'Bootstrap', 'React', 'React-Router'],
+    },
+    {
+        id: 2,
         title: 'Rick and Morty',
         description:
             'Buscador de personajes de la serie Rick y Morty. Dispone de filtros y puedes ver en detalle cada personaje.',
@@ -20,7 +31,7 @@ const dataProjects = [
         skills: ['HTML', 'SASS', 'React'],
     },
     {
-        id: 2,
+        id: 3,
         title: 'Blackjack',
         description:
             'Sencillo juego de Blackjack hecho en JS Vanilla y maquetado con ayuda de Bootstrap. Ya sabéis, a por 21!',
@@ -30,7 +41,7 @@ const dataProjects = [
         skills: ['HTML', 'Bootstrap', 'JS Vanilla'],
     },
     {
-        id: 3,
+        id: 4,
         title: 'Card Generator',
          description:
             'Generador de tarjetas de visita, con uso de local storage. Una vez terminada se comparte en Twitter fácilmente.',
@@ -40,7 +51,7 @@ const dataProjects = [
         skills: ['HTML', 'CSS', 'SASS', 'JavaScript'],
     },
     {
-        id: 4,
+        id: 5,
         title: 'Drum-Kit',
         description:
             'Sencillo juego de batería hecho con JavaScript Vanilla. Responsive y accionable tanto con teclas como pulsando!',
@@ -51,7 +62,7 @@ const dataProjects = [
          skills: ['HTML', 'CSS', 'JavaScript'],
     },
     {
-        id: 5,
+        id: 6,
         title: 'Pokemon List',
         description:
             'Listado de Pokemons hecho con React, seleccionables y con un bonito (aunque sencillo) diseño.',
@@ -62,7 +73,7 @@ const dataProjects = [
         skills: ['HTML', 'SASS', 'React'],
     },
     {
-        id: 6,
+        id: 7,
         title: 'Buscador de Series',
         description:
             'Buscador por nombre a través de API. Contiene un listado de favoritos y la info se almacena en el local storage.',
@@ -73,7 +84,7 @@ const dataProjects = [
         skills: ['HTML', 'SASS', 'JavaScript'],
     },
     {
-        id: 7,
+        id: 8,
         title: 'ToDo App',
         description:
             'Aplicación web para gestionar tareas pendientes. Tiene filtro para saber las que te quedan por realizar',

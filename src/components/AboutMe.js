@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../stylesheets/layout/AboutMe.scss';
 import imageOfMe from '../assets/images/yo.jpg';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 const AboutMe = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+    }, []);
     return (
         <section className="aboutme">
              <div className="transparent_div-am" id="aboutme"></div>
              <div className="aboutme_container">
-                <h2 className="aboutme_title">Y ahora un poco sobre mí...</h2>             
-                <div className="aboutme_img_animation-container animate__animated animate__fadeInLeft animate__delay-5s">
+                <h2 className="aboutme_title">Y ahora un poco sobre mí...</h2>         
+                <div className="aboutme_img_animation-container"data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="250">
                     <div className="aboutme_img-container">
                         <img
                             className="aboutme_img"
@@ -30,7 +36,7 @@ const AboutMe = () => {
                     </span>
                 </div>
                 
-                <div className="aboutme_sm">
+                <div className="aboutme_sm" data-aos="zoom-out" data-aos-delay="1000">
                     <a className="ico_container ico1" href="https://www.linkedin.com/in/barbarabsacristan/" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de LinkedIn">
                         <i className="fab fa-linkedin-in"></i>
                     </a>
@@ -41,6 +47,7 @@ const AboutMe = () => {
                     <i className="fab fa-github-alt"></i>
                     </a>
                 </div>
+                
                 <div className="aboutme_info">
                     <p>Cuento con <span className="bold">más de 10 años de experiencia</span> en gestión de información, control de calidad y atención al cliente en ambientes de trabajo multiculturales.</p>
                     <p>Hace relativamente poco decidí darle un giro a mi carrera profesional y convertirme en <span className="bold">desarrolladora front-end</span>, algo que combino con mis <span className="bold">estudios musicales</span>.</p>

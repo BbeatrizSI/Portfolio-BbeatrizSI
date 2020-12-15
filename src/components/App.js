@@ -3,9 +3,10 @@ import Hero from './Hero';
 import Footer from './Footer';
 import Projects from './Projects';
 import dataProjects from '../data/dataProjects';
-import '../stylesheets/layout/App.scss';
-import { useState } from 'react';
 import AboutMe from './AboutMe';
+import { useState } from 'react';
+import '../stylesheets/layout/App.scss';
+
 
 function App() {
 

@@ -18,7 +18,7 @@ const Projects = ({data}) => {
                   githubLink={githubLink}
                   webLink={webLink}
                   img={img}
-                   skills={skills}
+                  skills={skills}
                 />
                )
             )}

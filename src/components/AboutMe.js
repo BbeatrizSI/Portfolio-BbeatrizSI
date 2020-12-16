@@ -52,7 +52,7 @@ const AboutMe = () => {
                     <p>Cuento con <span className="bold">más de 10 años de experiencia</span> en gestión de información, control de calidad y atención al cliente en ambientes de trabajo multiculturales.</p>
                     <p>Hace relativamente poco decidí darle un giro a mi carrera profesional y convertirme en <span className="bold">desarrolladora front-end</span>, algo que combino con mis <span className="bold">estudios musicales</span>.</p>
                     <p>La <span className="bold">creatividad</span>, la <span className="bold">curiosidad</span> y la <span className="bold">motivación</span> para seguir aprendiendo día a día, así como las capacidades <span className="bold">analítica</span> y de <span className="bold">comunicación</span>, son algunas de las características que mejor me definen.</p>
-                    <p>¿Quieres conocerme más? Pásate por mi LinkedIn, Twitter, GitHub o directamente escríbeme un correo electrónico! 😉</p>
+                    <p>¿Quieres conocerme más? Pásate por mi LinkedIn, Twitter, GitHub o directamente escríbeme un mensaje! 😉</p>
                 </div>
             </div>
             

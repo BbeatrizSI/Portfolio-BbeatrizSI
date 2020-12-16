@@ -6,6 +6,7 @@ import dataProjects from '../data/dataProjects';
 import AboutMe from './AboutMe';
 import { useState } from 'react';
 import '../stylesheets/layout/App.scss';
+import Contact from './Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <Projects data={ dataProjects } />
       <AboutMe />
+      <Contact />
       <Footer />
     </div>
   );

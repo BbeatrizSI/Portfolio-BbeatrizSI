@@ -1,12 +1,12 @@
-import Header from './Header';
-import Hero from './Hero';
-import Footer from './Footer';
-import Projects from './Projects';
+import React, { useState } from 'react';
+import Header from './header/Header';
+import Hero from './hero/Hero';
+import Footer from './footer/Footer';
+import Projects from './projects/Projects';
+import AboutMe from './aboutme/AboutMe';
+import Contact from './contact/Contact';
 import dataProjects from '../data/dataProjects';
-import AboutMe from './AboutMe';
-import { useState } from 'react';
-import '../stylesheets/layout/App.scss';
-import Contact from './Contact';
+import './App.scss';
 
 
 function App() {

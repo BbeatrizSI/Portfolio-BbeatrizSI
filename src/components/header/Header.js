@@ -1,6 +1,6 @@
 import React from 'react';
-import Menu from './Menu';
-import '../stylesheets/layout/Header.scss';
+import Menu from '../menu/Menu';
+import './Header.scss';
 
 
 const Header = ({menuVisibility, setMenuVisibility}) => {

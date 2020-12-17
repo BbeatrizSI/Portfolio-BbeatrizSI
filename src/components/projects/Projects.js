@@ -25,7 +25,7 @@ const Projects = ({data}) => {
             <div className="blank_space"></div>
           </div>
           <div className="github_description">
-          <p>Para ver más, te invito a pasarte por mi perfil de GitHub:</p> <a className="github_icon-link"href="https://github.com/BbeatrizSI" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de GitHub"><i className="fab fa-github github_icon"></i></a>
+          <p>Para ver más, te invito a pasar por mi perfil de GitHub:</p> <a className="github_icon-link"href="https://github.com/BbeatrizSI" target="_blank" rel="noopener noreferrer" title="Enlace al perfil de GitHub"><i className="fab fa-github github_icon"></i></a>
           </div>
         </section>
     );

@@ -15,7 +15,7 @@ const AboutMe = () => {
              <div className="transparent_div-am" id="aboutme"></div>
              <div className="aboutme_container">
                 <h2 className="aboutme_title">Y ahora un poco sobre mí...</h2>         
-                <div className="aboutme_img_animation-container"data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="250">
+                <div className="aboutme_img_animation-container" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="250">
                     <div className="aboutme_img-container">
                         <img
                             className="aboutme_img"

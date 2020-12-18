@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Switch, Route } from 'react-router-dom';
 import Form from '../form/Form';
 import SuccessSubmit from '../success/SuccessSubmit';
 import ErrorSubmit from '../errorsubmit/ErrorSubmit';
@@ -13,6 +14,14 @@ const Contact = () => {
 
   const [stateForm, setStateForm] = useState('');
 
+  const resultFormSubmit = () => {
+    if (stateForm === 'SUCCESS') {
+      <SuccessSubmit />;
+    } else if (stateForm === 'ERROR') {
+      <ErrorSubmit />;
+    }
+  };
+
   return (
     <section className='contact' data-aos='slide-up'>
       <h2 className='contact_title'>
@@ -21,16 +30,12 @@ const Contact = () => {
           o quieres trabajar conmigo?
         </span>
       </h2>
-      {/* <Form stateForm={ stateForm } setStateForm={ setStateForm }/> */}
-      {/* <SuccessSubmit /> */}
-      <ErrorSubmit />
-      {/* {stateForm === "SUCCESS" ? 
-                <>
-                <p className="thankyou_text">Gracias! Muy pronto obtendrás respuesta! ✔️</p> 
-                <button type="submit" className="contact_form-btn">Enviar</button>
-                </> : 
-                <button type="submit" className="contact_form-btn">Enviar</button>} */}
-      {/* {stateForm === "ERROR" && <p className="thankyou_text">Ooops! Algo salió mal, vuelve a intentarlo. ❌</p>} */}
+      <Switch>
+        <Route exact path='/'>
+          <Form stateForm={stateForm} setStateForm={setStateForm} />
+        </Route>
+        <Route path='/resultsubmit' render={resultFormSubmit()} />
+      </Switch>
     </section>
   );
 };

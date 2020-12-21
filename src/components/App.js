@@ -8,7 +8,7 @@ import Contact from './contact/Contact';
 import dataProjects from '../data/dataProjects';
 import './App.scss';
 
-function App() {
+function App({ history }) {
   const [menuVisibility, setMenuVisibility] = useState(false);
 
   return (
@@ -20,7 +20,7 @@ function App() {
       <Hero />
       <Projects data={dataProjects} />
       <AboutMe />
-      <Contact />
+      <Contact history={history} />
       <Footer />
     </div>
   );

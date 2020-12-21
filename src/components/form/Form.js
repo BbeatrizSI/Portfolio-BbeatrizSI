@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Form.scss';
 
-const Form = ({ setStateForm }) => {
+const Form = ({ setStateForm, history }) => {
   const [values, setValues] = useState({ name: '', email: '', message: '' });
 
   const handleInputChange = ({ target }) => {
@@ -28,6 +28,7 @@ const Form = ({ setStateForm }) => {
       }
     };
     xhr.send(data);
+    history.push('/resultsubmit');
   };
 
   return (

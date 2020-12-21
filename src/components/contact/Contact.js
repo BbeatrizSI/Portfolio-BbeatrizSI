@@ -7,7 +7,7 @@ import './Contact.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-const Contact = () => {
+const Contact = ({ history }) => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -20,6 +20,7 @@ const Contact = () => {
     } else if (stateForm === 'ERROR') {
       <ErrorSubmit />;
     }
+    console.log(stateForm);
   };
 
   return (
@@ -32,9 +33,15 @@ const Contact = () => {
       </h2>
       <Switch>
         <Route exact path='/'>
-          <Form stateForm={stateForm} setStateForm={setStateForm} />
+          <Form
+            stateForm={stateForm}
+            setStateForm={setStateForm}
+            history={history}
+          />
         </Route>
-        <Route path='/resultsubmit' render={resultFormSubmit()} />
+        <Route exact path='/resultsubmit'>
+          {stateForm === 'SUCCESS' ? <SuccessSubmit /> : <ErrorSubmit />}
+        </Route>
       </Switch>
     </section>
   );

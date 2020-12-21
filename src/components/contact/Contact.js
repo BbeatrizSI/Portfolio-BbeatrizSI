@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <section className='contact' data-aos='slide-up'>
+    <section className='contact' id='contact' data-aos='slide-up'>
       <h2 className='contact_title'>
         Tienes alguna pregunta{' '}
         <span className='contact_title-secondary'>

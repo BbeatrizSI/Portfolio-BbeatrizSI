@@ -4,5 +4,12 @@
     "developer1": "Desarrolladora",
     "developer2": "Front-End Jr.",
     "help": "Sigue bajando o ataja por los links para saber un poco más de mí!"
+  },
+  "projects": {
+    "title": "Algo de lo que he estado haciendo...",
+    "github": "Para ver más, te invito a pasar por mi perfil de GitHub:"
+  },
+  "project": {
+    "heroes": "Directorio de héroes con buscador. Falso 'login' para diferenciar rutas públicas y privadas"
   }
 }

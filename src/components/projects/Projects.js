@@ -3,8 +3,12 @@ import Project from './Project';
 import './Projects.scss';
 import { useTranslation } from 'react-i18next';
 
-const Projects = ({ data }) => {
-  const [t] = useTranslation('global');
+const Projects = ({ dataEs, dataEn }) => {
+  const [t, i18n] = useTranslation('global');
+
+  let data = dataEs;
+
+  i18n.language === 'en' ? (data = dataEn) : (data = dataEs);
 
   return (
     <section className='projects'>

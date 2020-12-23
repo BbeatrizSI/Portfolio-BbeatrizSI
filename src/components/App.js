@@ -5,7 +5,8 @@ import Footer from './footer/Footer';
 import Projects from './projects/Projects';
 import AboutMe from './aboutme/AboutMe';
 import Contact from './contact/Contact';
-import dataProjects from '../data/dataProjects';
+import dataProjectsES from '../data/dataProjectsES';
+import dataProjectsEN from '../data/dataProjectsEN';
 import './App.scss';
 
 function App({ history }) {
@@ -18,7 +19,7 @@ function App({ history }) {
         setMenuVisibility={setMenuVisibility}
       />
       <Hero />
-      <Projects data={dataProjects} />
+      <Projects dataEs={dataProjectsES} dataEn={dataProjectsEN} />
       <AboutMe />
       <Contact history={history} />
       <Footer />

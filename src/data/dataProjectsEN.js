@@ -7,12 +7,12 @@ import pokemon from '../assets/images/pokemon.jpg';
 import series from '../assets/images/series.jpg';
 import tareas from '../assets/images/tareas.jpg';
 
-const dataProjects = [
+const dataProjectsEN = [
   {
     id: 1,
     title: 'Heroes App',
     description:
-      'Directorio de héroes con buscador. Falso "login" para diferenciar rutas públicas y privadas',
+      'Heroes directory with browser. False "login" to make the difference between public and private routes.',
     githubLink: 'https://github.com/BbeatrizSI/Heroes-App',
     webLink: 'https://bbeatrizsi.github.io/Heroes-App/',
     img: heroes,
@@ -22,7 +22,7 @@ const dataProjects = [
     id: 2,
     title: 'Rick and Morty',
     description:
-      'Buscador de personajes de la serie Rick y Morty. Dispone de filtros y puedes ver en detalle cada personaje.',
+      'Rick & Morty characters searcher. It has filters (death or alive, etc.)and can show characters in more detail',
     githubLink:
       'https://github.com/BbeatrizSI/                 Rick-and-Morty-Characters',
     webLink: 'https://bbeatrizsi.github.io/Rick-and-Morty-Characters/#/',
@@ -33,7 +33,7 @@ const dataProjects = [
     id: 3,
     title: 'Blackjack',
     description:
-      'Sencillo juego de Blackjack hecho en JS Vanilla y maquetado con ayuda de Bootstrap. Ya sabéis, a por 21!',
+      'Simple BlackJack game made in JavaScript Vanilla and designed with Bootstrap help. You know, get 21!',
     githubLink: 'https://github.com/BbeatrizSI/BlackJack',
     webLink: 'https://bbeatrizsi.github.io/BlackJack/',
     img: black,
@@ -43,7 +43,7 @@ const dataProjects = [
     id: 4,
     title: 'Card Generator',
     description:
-      'Generador de tarjetas de visita, con uso de local storage. Una vez terminada se comparte en Twitter fácilmente.',
+      'Business card generator, with use of local storage Once finished it is easily shared on Twitter.',
     githubLink:
       'https://github.com/BbeatrizSI/Maniac-Coders-Awesome-Profile-Cards',
     webLink:
@@ -55,7 +55,7 @@ const dataProjects = [
     id: 5,
     title: 'Drum-Kit',
     description:
-      'Sencillo juego de batería hecho con JavaScript Vanilla. Responsive y accionable tanto con teclas como pulsando!',
+      'Simple drum set made with JavaScript Vanilla. Responsive and actionable both with keys and by pressing!',
     githubLink: 'https://github.com/BbeatrizSI/Drum-Kit',
     webLink: 'https://bbeatrizsi.github.io/Drum-Kit/',
     img: drum,
@@ -65,7 +65,7 @@ const dataProjects = [
     id: 6,
     title: 'Pokemon List',
     description:
-      'Listado de Pokemons hecho con React, seleccionables y con un bonito (aunque sencillo) diseño.',
+      'List of Pokemons made with React, selectable and with a nice (but simple) design.',
     githubLink: 'https://github.com/BbeatrizSI/Pokemon-List',
     webLink: 'https://bbeatrizsi.github.io/Pokemon-List/',
     img: pokemon,
@@ -75,7 +75,7 @@ const dataProjects = [
     id: 7,
     title: 'Buscador de Series',
     description:
-      'Buscador por nombre a través de API. Contiene un listado de favoritos y la info se almacena en el local storage.',
+      'Search by name via API. It contains a list of favourites and the info is stored in the local storage.',
     githubLink:
       'https://github.com/BbeatrizSI/modulo-2-evaluacion-final-BbeatrizSI',
     webLink:
@@ -87,7 +87,7 @@ const dataProjects = [
     id: 8,
     title: 'ToDo App',
     description:
-      'Aplicación web para gestionar tareas pendientes. Tiene filtro para saber las que te quedan por realizar',
+      'Web application to manage pending tasks. It has a filter to know what you have left to do.',
     githubLink: 'https://github.com/BbeatrizSI/ToDo-App',
     webLink: 'https://bbeatrizsi.github.io/ToDo-App/',
     img: tareas,
@@ -95,4 +95,4 @@ const dataProjects = [
   },
 ];
 
-export default dataProjects;
+export default dataProjectsEN;

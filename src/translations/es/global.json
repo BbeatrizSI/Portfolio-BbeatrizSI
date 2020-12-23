@@ -9,7 +9,35 @@
     "title": "Algo de lo que he estado haciendo...",
     "github": "Para ver más, te invito a pasar por mi perfil de GitHub:"
   },
-  "project": {
-    "heroes": "Directorio de héroes con buscador. Falso 'login' para diferenciar rutas públicas y privadas"
+  "aboutme": {
+    "title": "Y ahora un poco sobre mí...",
+    "info1": "Cuento con",
+    "info2": "más de 10 años de experiencia ",
+    "info3": "en gestión de información, control de calidad y atención al cliente en ambientes de trabajo multiculturales.",
+    "info4": "Hace relativamente poco decidí darle un giro a mi carrera profesional y convertirme en",
+    "info5": "desarrolladora front-end ",
+    "info6": ", algo que combino con mis ",
+    "info7": "estudios musicales",
+    "info8": "La ",
+    "info9": "creatividad",
+    "info10": ", la",
+    "info11": "curiosidad",
+    "info12": " y la",
+    "info13": "motivación",
+    "info14": " para seguir aprendiendo día a día, así como las capacidades",
+    "info15": "analítica",
+    "info16": " y de",
+    "info17": "comunicación",
+    "info18": ", son algunas de las características que mejor me definen.",
+    "info19": "¿Quieres conocerme más? Pásate por mi LinkedIn, Twitter, GitHub o directamente escríbeme un mensaje! 😉"
+  },
+  "contact": {
+    "title1": "Tienes alguna pregunta",
+    "title2": " o quieres trabajar conmigo?",
+    "name": "Nombre",
+    "message": "Tu mensaje",
+    "btn": "Enviar",
+    "success": "Gracias! Muy pronto obtendrás respuesta!",
+    "error": "Ooops! Algo salió mal, vuelve a intentarlo."
   }
 }

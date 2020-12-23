@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Contact.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const [t, i18n] = useTranslation('global');
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -44,10 +47,8 @@ const Contact = () => {
   return (
     <section className='contact' id='contact' data-aos='slide-up'>
       <h2 className='contact_title'>
-        Tienes alguna pregunta{' '}
-        <span className='contact_title-secondary'>
-          o quieres trabajar conmigo?
-        </span>
+        {t('contact.title1')}{' '}
+        <span className='contact_title-secondary'>{t('contact.title2')}</span>
       </h2>
       <form
         className='contact_form'
@@ -58,7 +59,7 @@ const Contact = () => {
         <input
           type='text'
           name='name'
-          placeholder='Nombre'
+          placeholder={t('contact.name')}
           required
           className='input'
           value={values.values}
@@ -75,30 +76,26 @@ const Contact = () => {
         />
         <textarea
           name='message'
-          placeholder='Tu mensaje'
+          placeholder={t('contact.message')}
           required
           className='input'
           value={values.values}
           onChange={handleInputChange}
         ></textarea>
         <button type='submit' className='contact_form-btn'>
-          Enviar
+          {t('contact.btn')}
         </button>
         {stateForm === '' && <div className='submit_response'></div>}
         {stateForm === 'SUCCESS' && (
           <div className='submit_response'>
             <i className='fas fa-check'></i>
-            <p className='thankyou_text'>
-              Gracias! Muy pronto obtendrás respuesta!
-            </p>
+            <p className='thankyou_text'>{t('contact.success')}</p>
           </div>
         )}
         {stateForm === 'ERROR' && (
           <div className='submit_response'>
             <i className='fas fa-times'></i>
-            <p className='thankyou_text'>
-              Ooops! Algo salió mal, vuelve a intentarlo.
-            </p>
+            <p className='thankyou_text'>{t('contact.error')}</p>
           </div>
         )}
       </form>

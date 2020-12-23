@@ -4,5 +4,40 @@
     "developer1": "Jr. Front-End",
     "developer2": "Developer",
     "help": "Keep scrolling down or click links to know me better!"
+  },
+  "projects": {
+    "title": "Somethings I'm working on...",
+    "github": "Want to see more? Go check my GitHub profile"
+  },
+  "aboutme": {
+    "title": "Now something about me...",
+    "info1": "I am a",
+    "info2": "10 years experienced worker ",
+    "info3": "in information management, quality control and customer service in diverse and multicultural working environments.",
+    "info4": "Not so long ago I decided to turn up my professional career and become a",
+    "info5": "front-end developer",
+    "info6": ", which I combine with my",
+    "info7": " musical studies",
+    "info8": "",
+    "info9": "Creativity",
+    "info10": ",",
+    "info11": "Curiosity",
+    "info12": " and",
+    "info13": "motivation",
+    "info14": " to keep learning day by day, as well as ",
+    "info15": "analytical skill",
+    "info16": " and",
+    "info17": "comunication skill",
+    "info18": ", are some of the attributes that best define me.",
+    "info19": "¿Do you want to know me better? Go check my LinkedIn, Twitter, GitHub or write me something bellow! 😉"
+  },
+  "contact": {
+    "title1": "Do you have any question",
+    "title2": " or want to work with me?",
+    "name": "Name",
+    "message": "Your message",
+    "btn": "Send",
+    "success": "Thank you! You will get an answer soon!",
+    "error": "Ooops! Something went wrong, try again!"
   }
 }

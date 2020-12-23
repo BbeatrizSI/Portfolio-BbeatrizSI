@@ -4,7 +4,7 @@
 @import '../App.scss';
 
 .menu_aside {
-  height: 220px;
+  height: 160px;
   width: 75px;
   display: flex;
   flex-direction: column;
@@ -15,12 +15,28 @@
   animation-name: menuDropDown;
   animation-duration: 0.3s;
 
+  a,
+  button {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
   .fas {
     font-size: 2rem;
     color: $color-primary;
     text-shadow: 0px 1px 3px $color-shadow;
     margin: 20px 0px;
     cursor: pointer;
+  }
+
+  .menu_btn-language {
+    border: none;
+    background-color: transparent;
   }
 }
 

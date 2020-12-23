@@ -10,10 +10,13 @@ const Menu = () => {
       <a href='tel:+34650199270' title='Llámame'>
         <i className='fas fa-phone-alt'></i>
       </a>
-      <a href='mailto:bbeatriz@gmail.com' title='Escríbeme'>
-        <i className='fas fa-envelope'></i>
-      </a>
-      <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+
+      <button
+        className='menu_btn-language'
+        onClick={() => i18n.changeLanguage('en')}
+      >
+        <i className='fas fa-globe'></i>
+      </button>
     </nav>
   );
 };

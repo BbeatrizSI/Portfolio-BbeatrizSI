@@ -73,7 +73,7 @@ const dataProjectsEN = [
   },
   {
     id: 7,
-    title: 'Buscador de Series',
+    title: 'Series Finder',
     description:
       'Search by name via API. It contains a list of favourites and the info is stored in the local storage.',
     githubLink:

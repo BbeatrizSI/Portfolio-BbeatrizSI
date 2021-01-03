@@ -45,7 +45,11 @@ const Contact = () => {
   };
 
   return (
-    <section className='contact' id='contact' data-aos='slide-up'>
+    <section
+      className='contact'
+      id='contact'
+      // data-aos='slide-up'
+    >
       <h2 className='contact_title'>
         {t('contact.title1')}{' '}
         <span className='contact_title-secondary'>{t('contact.title2')}</span>

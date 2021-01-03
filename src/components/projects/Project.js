@@ -11,7 +11,7 @@ const Project = ({
   skills,
 }) => {
   return (
-    <article className='project animate__animated animate__fadeIn' data-id={id}>
+    <div className='project' data-id={id}>
       <div className='project_img-container'>
         <img src={img} className='project_img' alt={title}></img>
       </div>
@@ -27,7 +27,7 @@ const Project = ({
           </a>
         </div>
       </div>
-    </article>
+    </div>
   );
 };
 

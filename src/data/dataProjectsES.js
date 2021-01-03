@@ -55,7 +55,7 @@ const dataProjectsES = [
     id: 5,
     title: 'Drum-Kit',
     description:
-      'Sencillo juego de batería hecho con JavaScript Vanilla. Responsive y accionable tanto con teclas como pulsando!',
+      'Sencillo juego de batería hecho con JavaScript Vanilla. Responsive y accionable pulsando las teclas!',
     githubLink: 'https://github.com/BbeatrizSI/Drum-Kit',
     webLink: 'https://bbeatrizsi.github.io/Drum-Kit/',
     img: drum,

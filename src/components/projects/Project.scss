@@ -4,19 +4,15 @@
 @import '../App.scss';
 
 .project {
-  width: 320px;
-  height: 480px;
+  // width: 300px;
+  height: 420px;
   min-width: 335px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  margin: 20px calc(50% - 162px);
-  scroll-snap-align: center;
-  border: 1px solid $color-secondary;
-  border-radius: 15px;
-  box-shadow: 0px 1px 1px $color-shadow;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // flex-shrink: 0;
+  padding: 5px 8px;
 
   @include tablet {
     margin: 20px;
@@ -26,10 +22,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 95%;
 
     .project_img {
-      width: 310px;
+      width: 300px;
       height: 220px;
       border-radius: 5px;
       box-shadow: 0px 1px 4px 1px $color-shadow;
@@ -41,14 +37,14 @@
     color: $color-black;
 
     .project_title {
-      margin: 20px 0 10px;
+      margin: 20px auto 10px;
     }
 
     .project_description {
       font-family: $font-secondary;
       text-align: justify;
       text-indent: 25px;
-      margin: 10px 0;
+      margin: 10px auto;
     }
 
     .project_icons {

@@ -18,10 +18,10 @@ const AboutMe = () => {
         <h2 className='aboutme_title'>{t('aboutme.title')}</h2>
         <div
           className='aboutme_img_animation-container'
-          data-aos='zoom-in'
-          data-aos-easing='ease-in-out'
-          data-aos-once='false'
-          data-aos-delay='250'
+          // data-aos='zoom-in'
+          // data-aos-easing='ease-in-out'
+          // data-aos-once='false'
+          // data-aos-delay='250'
         >
           <div className='aboutme_img-container'>
             <img
@@ -43,7 +43,10 @@ const AboutMe = () => {
           </span>
         </div>
 
-        <div className='aboutme_sm' data-aos='zoom-out' data-aos-delay='1000'>
+        <div
+          className='aboutme_sm'
+          // data-aos='zoom-out' data-aos-delay='1000'
+        >
           <a
             className='ico_container ico1'
             href='https://www.linkedin.com/in/barbarabsacristan/'

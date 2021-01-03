@@ -18,9 +18,29 @@
       src="https://kit.fontawesome.com/7fa95d1a39.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+      $(document).ready(function () {
+        $('.slider').bxSlider({
+          mode: 'fade',
+          captions: false,
+          slideWidth: 330,
+          pager: true,
+          responsive: true,
+          auto: true,
+          pause: 6000,
+        });
+      });
+    </script>
   </body>
 </html>

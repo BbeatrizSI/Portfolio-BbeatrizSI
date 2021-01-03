@@ -14,7 +14,7 @@ const Projects = ({ dataEs, dataEn }) => {
     <section className='projects'>
       <div className='transparent_div' id='projects'></div>
       <h2 className='projects_title'>{t('projects.title')}</h2>
-      <div className='projects_container'>
+      <div className='projects_container slider'>
         {data.map(
           ({ id, title, description, githubLink, webLink, img, skills }) => (
             <Project
@@ -28,7 +28,7 @@ const Projects = ({ dataEs, dataEn }) => {
             />
           )
         )}
-        <div className='blank_space'></div>
+        {/* <div className='blank_space'></div> */}
       </div>
       <div className='github_description'>
         <p>{t('projects.github')}</p>

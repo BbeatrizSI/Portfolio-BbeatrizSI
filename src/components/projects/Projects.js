@@ -2,6 +2,8 @@ import React from 'react';
 import Project from './Project';
 import './Projects.scss';
 import { useTranslation } from 'react-i18next';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
 
 const Projects = ({ dataEs, dataEn }) => {
   const [t, i18n] = useTranslation('global');
@@ -10,15 +12,34 @@ const Projects = ({ dataEs, dataEn }) => {
 
   i18n.language === 'en' ? (data = dataEn) : (data = dataEs);
 
+  const getConfigurableProps = () => ({
+    showArrows: true,
+    showStatus: true,
+    showIndicators: true,
+    infiniteLoop: true,
+    showThumbs: true,
+    useKeyboardArrows: true,
+    autoPlay: true,
+    stopOnHover: true,
+    swipeable: true,
+    dynamicHeight: true,
+    emulateTouch: true,
+    thumbWidth: 100,
+    selectedItem: 0,
+    interval: 7000,
+    transitionTime: 150,
+    swipeScrollTolerance: 5,
+  });
+
   return (
     <section className='projects'>
       <div className='transparent_div' id='projects'></div>
       <h2 className='projects_title'>{t('projects.title')}</h2>
-      <div className='projects_container'>
+      <Carousel className='projects_container' {...getConfigurableProps()}>
         {data.map(
           ({ id, title, description, githubLink, webLink, img, skills }) => (
             <Project
-              key={id}
+              key={'slide' + id}
               title={title}
               description={description}
               githubLink={githubLink}
@@ -28,8 +49,7 @@ const Projects = ({ dataEs, dataEn }) => {
             />
           )
         )}
-        <div className='blank_space'></div>
-      </div>
+      </Carousel>
       <div className='github_description'>
         <p>{t('projects.github')}</p>
         <a

@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from './Project';
-import './Projects.scss';
 import { useTranslation } from 'react-i18next';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
+import './Projects.scss';
 
 const Projects = ({ dataEs, dataEn }) => {
   const [t, i18n] = useTranslation('global');
@@ -14,7 +14,7 @@ const Projects = ({ dataEs, dataEn }) => {
 
   const getConfigurableProps = () => ({
     showArrows: true,
-    showStatus: true,
+    showStatus: false,
     showIndicators: true,
     infiniteLoop: true,
     showThumbs: true,

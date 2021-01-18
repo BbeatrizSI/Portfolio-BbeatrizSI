@@ -17,7 +17,7 @@ const Projects = ({ dataEs, dataEn }) => {
     showStatus: false,
     showIndicators: true,
     infiniteLoop: true,
-    showThumbs: true,
+    showThumbs: false,
     useKeyboardArrows: true,
     autoPlay: true,
     stopOnHover: true,

@@ -1,4 +1,4 @@
-# Project of my own portfolio
+# Project of my own portfolio -- Better see on mobile view!!
 
 ## Available Scripts
 
